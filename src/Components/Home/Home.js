@@ -14,7 +14,7 @@ class Home extends Component{
 
     const typing = setInterval(() =>{
       const typed = this.state.text;
-      const finalText= "Developer 이규한의 포트폴리오입니다";
+      const finalText= "Developer 김장현의 포트폴리오입니다";
 
       if(i<finalText.length) { 
         this.setState ({
