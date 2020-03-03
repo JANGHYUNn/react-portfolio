@@ -44,16 +44,16 @@ const Skils = () => (
 
     <h2 className="Skill_Title">DataBase</h2>
     <span className="Skill_Content">
-    <div className="Skill_image_container" style={{backgroundImage: `url(${mssql})`}}><div className="Skill_label">Intermediate</div></div>
-    <div className="Skill_image_container" style={{backgroundImage: `url(${oracle})`}}><div className="Skill_label">Intermediate</div></div>
+    <div className="Skill_image_container" style={{backgroundImage: `url(${mssql})`}}><div className="Skill_label">초-중급</div></div>
+    <div className="Skill_image_container" style={{backgroundImage: `url(${oracle})`}}><div className="Skill_label">초급</div></div>
     </span>
     
     
     
     <h2 className="Skill_Title">Etc</h2>
     <span className="Skill_Content">
-    <div className="Skill_image_container" style={{backgroundImage: `url(${github})`}}><div className="Skill_label">Intermediate</div></div>
-    <div className="Skill_image_container" style={{backgroundImage: `url(${svn})`}}><div className="Skill_label">Intermediate</div></div>
+    <div className="Skill_image_container" style={{backgroundImage: `url(${github})`}}><div className="Skill_label">초급</div></div>
+    <div className="Skill_image_container" style={{backgroundImage: `url(${svn})`}}><div className="Skill_label">초급</div></div>
     </span>
     </div>
   </div>
