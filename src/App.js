@@ -15,15 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="HomepageLayout">
-      <Header />
-       <Home/>
-     <About/>
-     <Skills/>
-     <Project/>
-     <Contact/>
-    
+        <Header />
+        <Home/>
+        <About/>
+        <Skills/>
+        <Project/>
+        <Contact/>
       </div>
-   
     );
   }
 }
