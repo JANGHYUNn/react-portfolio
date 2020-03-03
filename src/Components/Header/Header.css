@@ -61,7 +61,7 @@ html{
 
        width:35px;
        height:5px;
-       background-color: gray;
+       background-color: rgba(47, 12, 143, 0.6);;
        margin: 6px 0;
        transition: 0.4s;
    }
@@ -99,6 +99,6 @@ html{
     .bar_li{
         font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    color:gray;
+    color: rgba(47, 12, 143, 0.6);
       opacity: 0.6;
     }
