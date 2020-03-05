@@ -11,7 +11,6 @@ const Row = () => (
     <div className="Box">
       <div className="Box_image">
       <a href="https://www.kcar.com/index.do"> <img src={kcar} alt="kcar" className="image"></img></a>
-        이미지
       </div>
       <div className="Box_info">
       <h1 className="Box_title">K car 직영중고차 리뉴얼</h1>
