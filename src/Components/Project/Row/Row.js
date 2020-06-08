@@ -2,35 +2,64 @@ import React from 'react';
 import kcar from './image/kcar.png';
 import hanskin from './image/hanskin.png';
 import namyang from './image/namyang.png';
+import posco from './image/posco.png'
+import todo from './image/todo.png'
 import github from './image/github-logo.svg';
 import  './Row.css';
 
 
 const Row = () => (
   <div className="Row">
-   
-
-     <div className="Box">
+              <div className="Box">
       <div className="Box_image">
-      <a href="https://www.hanskin.com/main"> <img src={hanskin} alt="Virtual" className="image"></img></a>
+       <a href="https://janghyunn.github.io/vue-todo/"><img src={todo} alt="Virtual" className="image"></img></a>
       </div>
       <div className="Box_info">
-      <h1 className="Box_title">셀트리온스킨큐어 한스킨 웹사이트 구축</h1>
+      <h1 className="Box_title">Vue-Todo-List</h1>
 
-      <h2 className="name">개발기간 : 2018.12 ~ 2019.03</h2>
+      <h2 className="name">개발기간 : 2020.06.01 ~ 2020.06.05</h2>
       <p className="Box_content">
-            - 처음해보는 프로시저 개발이어서 지식이 부족한 문제발생<br/>
-            - 각종 문서와 선임에게 질문을 통해 문제해결<br/>
-            - 인터페이스 설계서를 본 후 Project leader와 데이터 format 및 타입 정의<br/>
-            - ERP와 EAI ( 두 시스템의 데이터 연동 )를 통해 송/수신 프로시저 작성
+            - container component와  Presentational Component 의 이해<br/>
+            - vuex 통한 component 상태관리<br/>
+            - helper 함수와 store modules를 통한 구조분리
       </p>
       <ul className="Box_ul">   
-      <li  className="Box_li">#msSql</li>  
-       <li className="Box_li">#Sql server</li>  
-       <li className="Box_li">#T-SQL</li>
+      <li  className="Box_li">#vue</li>  
+       <li className="Box_li">#es6</li>  
+       <li className="Box_li">#vuex</li>
       </ul>
       <ul className="Box_ul">
       <li className="Box_li">
+      <a href="https://github.com/JANGHYUNn/vue-todo" alt="github"> <img src={github} alt="github" className="icon_image"/></a>
+       </li>
+      </ul>
+            </div>
+    </div>
+
+     
+    
+            <div className="Box">
+      <div className="Box_image">
+       <img src={posco} alt="Virtual" className="image"></img>
+      </div>
+      <div className="Box_info">
+      <h1 className="Box_title">포스코 차세대 생산, 물류관리 시스템</h1>
+
+      <h2 className="name">개발기간 : 2019.11 ~ 2020.01</h2>
+      <p className="Box_content">
+            - es6 문법에 대해 지식이 부족하다 느낌<br/>
+            - 스터디를 통해 es6 문법과 실행 컨텍스트 이해 <br/>
+            - 백엔드 개발자와 협의 후 axios 를 이용해 http통신하여 데이터 가공 후 물류관리 조회, 작업지시서 등록<br/>
+            - mobx를 통한 state 상태관리
+      </p>
+      <ul className="Box_ul">   
+      <li  className="Box_li">#react</li>  
+       <li className="Box_li">#mobx</li>  
+       <li className="Box_li">#axios</li>
+      </ul>
+      <ul className="Box_ul">
+      <li className="Box_li">
+            {/* <a href="https://github.com/JANGHYUNn/vue-todo" alt="github"> <img src={github} alt="github" className="icon_image"/></a> */}
        </li>
       </ul>
             </div>
@@ -56,29 +85,29 @@ const Row = () => (
       </ul>
       <ul className="Box_ul">
       <li className="Box_li">
-      {/* <a href="https://github.com/weaklion/Jarvis_Mirror" alt="github"> <img src={github} alt="github" className="icon_image"/></a> */}
+      {/* <a href="https://github.com/JANGHYUNn/vue-todo" alt="github"> <img src={github} alt="github" className="icon_image"/></a> */}
        </li>
       </ul>
             </div>
             </div>
-            <div className="Box">
+    <div className="Box">
       <div className="Box_image">
-      {/* <a href="https://www.hanskin.com/main"> <img src={hanskin} alt="Virtual" className="image"></img></a> */}
+      <a href="https://www.hanskin.com/main"> <img src={hanskin} alt="Virtual" className="image"></img></a>
       </div>
       <div className="Box_info">
-      <h1 className="Box_title">포스코 차세대 생산, 물류관리 시스템</h1>
+      <h1 className="Box_title">셀트리온스킨큐어 한스킨 웹사이트 구축</h1>
 
-      <h2 className="name">개발기간 : 2019.11 ~ 2020.01</h2>
+      <h2 className="name">개발기간 : 2018.12 ~ 2019.03</h2>
       <p className="Box_content">
-            - es6 문법에 대해 지식이 부족하다 느낌<br/>
-            - 스터디를 통해 es6 문법과 실행 컨텍스트 이해 <br/>
-            - 백엔드 개발자와 협의 후 axios 를 이용해 http통신하여 데이터 가공 후 물류관리 조회, 작업지시서 등록<br/>
-            - mobx를 통한 state 상태관리
+            - 처음해보는 프로시저 개발이어서 지식이 부족한 문제발생<br/>
+            - 각종 문서와 선임에게 질문을 통해 문제해결<br/>
+            - 인터페이스 설계서를 본 후 Project leader와 데이터 format 및 타입 정의<br/>
+            - ERP와 EAI ( 두 시스템의 데이터 연동 )를 통해 송/수신 프로시저 작성
       </p>
       <ul className="Box_ul">   
-      <li  className="Box_li">#react</li>  
-       <li className="Box_li">#mobx</li>  
-       <li className="Box_li">#axios</li>
+      <li  className="Box_li">#msSql</li>  
+       <li className="Box_li">#Sql server</li>  
+       <li className="Box_li">#T-SQL</li>
       </ul>
       <ul className="Box_ul">
       <li className="Box_li">

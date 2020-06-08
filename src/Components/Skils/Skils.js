@@ -6,6 +6,7 @@ import js from './logo/900px-JavaScript-logo.png';
 import jquery from './logo/iconfinder_JQuery_logo_282806.png';
 import css from './logo/css.png';
 import spring from './logo/spring.png';
+import vue from './logo/vue.png'
 import mybatis from './logo/mybatis.png';
 import mssql from './logo/microsoft-sql-server.svg';
 import oracle from './logo/oracle-logo.png';
@@ -37,6 +38,7 @@ const Skils = () => (
     </span>
     <h2 className="Skill_Title">FrameWork</h2>
     <span className="Skill_Content">
+    <div className="Skill_image_container" style={{backgroundImage: `url(${vue})`}}><div className="Skill_label">초급</div></div>
     <div className="Skill_image_container" style={{backgroundImage: `url(${react})`}}><div className="Skill_label">초급</div></div>
     <div className="Skill_image_container" style={{backgroundImage: `url(${spring})`}}><div className="Skill_label">초-중급</div></div>
     <div className="Skill_image_container" style={{backgroundImage: `url(${mybatis})`}}><div className="Skill_label">초-중급</div></div>
