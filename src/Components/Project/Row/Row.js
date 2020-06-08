@@ -8,32 +8,7 @@ import  './Row.css';
 
 const Row = () => (
   <div className="Row">
-    <div className="Box">
-      <div className="Box_image">
-      <a href="https://www.kcar.com/index.do"> <img src={kcar} alt="kcar" className="image"></img></a>
-      </div>
-      <div className="Box_info">
-      <h1 className="Box_title">K car 직영중고차 리뉴얼</h1>
-     
-      <h2 className="name">개발기간 : 2018.07 ~ 2018.11</h2>
-      <p className="Box_content">
-            - 화면 기획서를 검토 후 기획자와의 소통 후 개발 진행<br/>
-            - jQuery를 이용하여 각 이벤트를 주었지만 노드생성 시점 차이로 문제발생<br/>
-            - $(document).ready 와 window.onload 에 차이점을 이해하고 문제해결<br/>
-            - javascript localstorage 를 이용하여 최근 본 차량 조회 및 jQuery ajax 를 통해 찜목록 조회
-      </p>
-      <ul className="Box_ul">   
-      <li  className="Box_li">#javascript</li>  
-       <li className="Box_li">#jQuery</li>  
-       <li className="Box_li">#Spring</li>
-       <li className="Box_li">#Oracle</li> 
-      </ul>
-      <ul className="Box_ul">
-      <li className="Box_li">
-       </li>
-      </ul>
-            </div>
-    </div>
+   
 
      <div className="Box">
       <div className="Box_image">
@@ -104,6 +79,32 @@ const Row = () => (
       <li  className="Box_li">#react</li>  
        <li className="Box_li">#mobx</li>  
        <li className="Box_li">#axios</li>
+      </ul>
+      <ul className="Box_ul">
+      <li className="Box_li">
+       </li>
+      </ul>
+            </div>
+    </div>
+    <div className="Box">
+      <div className="Box_image">
+      <a href="https://www.kcar.com/index.do"> <img src={kcar} alt="kcar" className="image"></img></a>
+      </div>
+      <div className="Box_info">
+      <h1 className="Box_title">K car 직영중고차 리뉴얼</h1>
+     
+      <h2 className="name">개발기간 : 2018.07 ~ 2018.11</h2>
+      <p className="Box_content">
+            - 화면 기획서를 검토 후 기획자와의 소통 후 개발 진행<br/>
+            - jQuery를 이용하여 각 이벤트를 주었지만 노드생성 시점 차이로 문제발생<br/>
+            - $(document).ready 와 window.onload 에 차이점을 이해하고 문제해결<br/>
+            - javascript localstorage 를 이용하여 최근 본 차량 조회 및 jQuery ajax 를 통해 찜목록 조회
+      </p>
+      <ul className="Box_ul">   
+      <li  className="Box_li">#javascript</li>  
+       <li className="Box_li">#jQuery</li>  
+       <li className="Box_li">#Spring</li>
+       <li className="Box_li">#Oracle</li> 
       </ul>
       <ul className="Box_ul">
       <li className="Box_li">
