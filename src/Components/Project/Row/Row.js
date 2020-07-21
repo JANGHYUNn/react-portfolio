@@ -19,7 +19,7 @@ const Row = () => (
                         <a href="http://react-shop-client.s3-website.ap-northeast-2.amazonaws.com/"><img src={reactShop} alt="Virtual" className="image"></img></a>
                   </div>
                   <div className="Box_info">
-                        <h1 className="Box_title">쇼핑몰</h1>
+                        <h1 className="Box_title">쇼핑몰(개인 프로젝트)</h1>
 
                         <h2 className="name">개발기간 : 2020.07.15 ~ 진행중</h2>
                         <p className="Box_content" style={{fontSize:'1rem'}}>
@@ -50,7 +50,7 @@ const Row = () => (
                         <a href="http://vue-til.s3-website.ap-northeast-2.amazonaws.com/"><img src={vueTil} alt="Virtual" className="image"></img></a>
                   </div>
                   <div className="Box_info">
-                        <h1 className="Box_title">학습 노트 웹 애플리케이션</h1>
+                        <h1 className="Box_title">학습 노트 웹 애플리케이션(개인 프로젝트)</h1>
 
                         <h2 className="name">개발기간 : 2020.06.20 ~ 2020.06.25</h2>
                         <p className="Box_content">
@@ -76,7 +76,7 @@ const Row = () => (
                         <a href="https://janghyunn.github.io/vue-news/"><img src={vueNews} alt="Virtual" className="image"></img></a>
                   </div>
                   <div className="Box_info">
-                        <h1 className="Box_title">Hacker news 홈페이지 공식 Api를 이용한 클론 페이지</h1>
+                        <h1 className="Box_title">Hacker news 클론 페이지(개인 프로젝트)</h1>
 
                         <h2 className="name">개발기간 : 2020.06.06 ~ 2020.06.11</h2>
                         <p className="Box_content">
@@ -102,7 +102,7 @@ const Row = () => (
                         <a href="https://janghyunn.github.io/vue-todo/"><img src={todo} alt="Virtual" className="image"></img></a>
                   </div>
                   <div className="Box_info">
-                        <h1 className="Box_title">Vue-Todo-List</h1>
+                        <h1 className="Box_title">Vue-Todo-List(개인 프로젝트)</h1>
 
                         <h2 className="name">개발기간 : 2020.06.01 ~ 2020.06.05</h2>
                         <p className="Box_content">
