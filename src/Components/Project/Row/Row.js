@@ -7,12 +7,44 @@ import todo from './image/todo.png'
 import github from './image/github-logo.svg';
 import vueNews from './image/vue-news.png';
 import vueTil from './image/vue-til.png';
+import reactShop from './image/react-shop.png';
 
 import './Row.css';
 
 
 const Row = () => (
       <div className="Row">
+            <div className="Box">
+                  <div className="Box_image">
+                        <a href="http://react-shop-client.s3-website.ap-northeast-2.amazonaws.com/"><img src={reactShop} alt="Virtual" className="image"></img></a>
+                  </div>
+                  <div className="Box_info">
+                        <h1 className="Box_title">쇼핑몰</h1>
+
+                        <h2 className="name">개발기간 : 2020.07.15 ~ 진행중</h2>
+                        <p className="Box_content" style={{fontSize:'1rem'}}>
+                              - AWS s3를 이용한 웹 정적 호스팅, ec2를 이용한 nodejs api서버 구축<br />
+                              - nodejs(jwt, multer, bodyparser, cookieparser) 모듈을 이용하여 백엔드 구성<br />
+                              - mongodb를 이용한 데이터베이스 구축<br />
+                              - react hooks을 이용한 함수형 컴포넌트로 제작<br />
+                              - hok을 이용한 Authentication 기능 구현<br />
+                              - 3rd party(antd, formik, drop-zone)을 이용한 디자인, form양식, 이미지업로드 구현<br />
+                        </p>
+                        <ul className="Box_ul">
+                              <li className="Box_li">#AWS</li>
+                              <li className="Box_li">#react</li>
+                              <li className="Box_li">#redux</li>
+                              <li className="Box_li">#nodejs</li>
+                              <li className="Box_li">#mongodb</li>
+                              <li className="Box_li">#Rest Api</li>
+                        </ul>
+                        <ul className="Box_ul">
+                              <li className="Box_li">
+                                    <a href="https://github.com/JANGHYUNn/react-shopping-client" alt="github"> <img src={github} alt="github" className="icon_image" /></a>
+                              </li>
+                        </ul>
+                  </div>
+            </div>
             <div className="Box">
                   <div className="Box_image">
                         <a href="http://vue-til.s3-website.ap-northeast-2.amazonaws.com/"><img src={vueTil} alt="Virtual" className="image"></img></a>

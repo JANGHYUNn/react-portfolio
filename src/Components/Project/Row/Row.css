@@ -46,6 +46,8 @@
 .Box_li{
     display: inline-block;
     cursor: pointer;
+    margin-left: 10px;
+    color: #03afff
 }
 .icon_image{
     width: 25px;

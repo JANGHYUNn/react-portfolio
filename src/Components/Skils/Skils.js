@@ -15,6 +15,7 @@ import github from './logo/github-logo.png';
 import html from './logo/html-5.png';
 import svn from './logo/subversion-logo.png';
 import webpack from './logo/webpack.jpg';
+import node from './logo/unnamed.png';
 
 const Skils = () => (
   <div className="Skill" id="s">
@@ -45,6 +46,17 @@ const Skils = () => (
             {/* <div className="Skill_label">초-중급</div> */}
             <ReactTooltip id="javascript">• axios를 이용한 RestAPI 사용<br/>• 실행 컨텍스트에 대한 이해<br/>• this바인딩에 대한 이해<br/>• Closer를 이용한 캡슐화<br/>• prototype을 이용한 상속구현<br/>• 이벤트 버블링, 캡쳐 개념이해</ReactTooltip>
           </div>
+          <div
+            className="Skill_image_container"
+            style={{ backgroundImage: `url(${node})` , textAlign: "left"}}
+            data-tip
+            data-for='nodejs'
+            data-place="right"
+            data-type="info"
+          >
+            {/* <div className="Skill_label">초-중급</div> */}
+            <ReactTooltip id="nodejs">• express를 이용한 웹서버 생성<br/>• express router를 이용한 api구현<br/>• middleware를 이용한 auth기능 구현</ReactTooltip>
+          </div>
         </div>
       </span>
       <h2 className="Skill_Title"> Web Skils</h2>
@@ -69,7 +81,7 @@ const Skils = () => (
             data-type="info"
         >
           {/* <div className="Skill_label">초급</div> */}
-          <ReactTooltip id="css">• 태그 및 문서 내부에서 정의하는 style로 문서꾸미기<br/>• 선택자의 이해<br/>• Form문서의 이해, 여러가지 문서 입력 양식만들기</ReactTooltip>
+          <ReactTooltip id="css">• 태그 및 문서 내부에서 정의하는 style로 문서꾸미기<br/>• 선택자의 이해<br/>• Form문서의 이해, 여러가지 문서 입력 양식만들기<br/>• flex를 이용한 box model배치<br/>• float의 동작 원리 개념 이해</ReactTooltip>
         </div>
         <div
             className="Skill_image_container"
@@ -116,7 +128,7 @@ const Skils = () => (
             data-type="info"
         >
           {/* <div className="Skill_label">초급</div> */}
-          <ReactTooltip id="react">• spa에 대한 개념이해<br/>• state, props 기본 사용법<br/>• 이벤트 핸들링을 이용한 기능 개발</ReactTooltip>
+          <ReactTooltip id="react">• spa에 대한 개념이해<br/>• state, props 기본 사용법<br/>• 이벤트 핸들링을 이용한 기능 개발<br/>• redux를 이용한 state상태 관리<br/>• hoc를 이용한 authentication 구현<br/>• hook을 이용한 함수형 컴포넌트 생성</ReactTooltip>
         </div>
         <div
           className="Skill_image_container"
