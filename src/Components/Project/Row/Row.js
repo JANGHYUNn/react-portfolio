@@ -8,6 +8,7 @@ import github from './image/github-logo.svg';
 import vueNews from './image/vue-news.png';
 import vueTil from './image/vue-til.png';
 import reactShop from './image/react-shop.png';
+import withing from './image/withing-guide.png';
 
 import './Row.css';
 
@@ -16,12 +17,41 @@ const Row = () => (
       <div className="Row">
             <div className="Box">
                   <div className="Box_image">
+                        <a href="http://guide.withingkorea.com/"><img src={withing} alt="Virtual" className="image"></img></a>
+                  </div>
+                  <div className="Box_info">
+                        <h1 className="Box_title">withing(외국인 대상 여행가이드)</h1>
+
+                        <h2 className="name">개발기간 : 2020.10.15 ~ 2020.10.30</h2>
+                        <p className="Box_content" style={{fontSize:'1rem'}}>
+                              - Context Api를 이용한 전역 상태 관리<br />
+                              - react hooks을 이용한 함수형 컴포넌트로 제작<br />
+                              - post man을 사용한 rest api 체크<br />
+                              - hok을 이용한 Authentication 기능 구현(로그인 상태 체크)<br />
+                              - private git hub<br />
+                              - 참여율 80%(전반적인 기능 구현)
+                        </p>
+                        <ul className="Box_ul">
+                              <li className="Box_li">#react</li>
+                              <li className="Box_li">#contextApi</li>
+                              <li className="Box_li">#nodejs</li>
+                              <li className="Box_li">#Rest Api</li>
+                        </ul>
+                        <ul className="Box_ul">
+                              <li className="Box_li">
+                                    <a href="https://github.com/thebuildsoft/withing_Guide" alt="github"> <img src={github} alt="github" className="icon_image" /></a>
+                              </li>
+                        </ul>
+                  </div>
+            </div>
+            <div className="Box">
+                  <div className="Box_image">
                         <a href="http://react-shop-client.s3-website.ap-northeast-2.amazonaws.com/"><img src={reactShop} alt="Virtual" className="image"></img></a>
                   </div>
                   <div className="Box_info">
                         <h1 className="Box_title">쇼핑몰(개인 프로젝트)</h1>
 
-                        <h2 className="name">개발기간 : 2020.07.15 ~ 진행중</h2>
+                        <h2 className="name">개발기간 : 2020.07.15 ~ 2020.07.25</h2>
                         <p className="Box_content" style={{fontSize:'1rem'}}>
                               - AWS s3를 이용한 웹 정적 호스팅, ec2를 이용한 nodejs api서버 구축<br />
                               - nodejs(jwt, multer, bodyparser, cookieparser) 모듈을 이용하여 백엔드 구성<br />

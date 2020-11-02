@@ -128,7 +128,7 @@ const Skils = () => (
             data-type="info"
         >
           {/* <div className="Skill_label">초급</div> */}
-          <ReactTooltip id="react">• spa에 대한 개념이해<br/>• state, props 기본 사용법<br/>• 이벤트 핸들링을 이용한 기능 개발<br/>• redux를 이용한 state상태 관리<br/>• hoc를 이용한 authentication 구현<br/>• hook을 이용한 함수형 컴포넌트 생성</ReactTooltip>
+          <ReactTooltip id="react">• spa에 대한 개념이해<br/>• state, props 기본 사용법<br/>• 이벤트 핸들링을 이용한 기능 개발<br/>• redux를 이용한 state상태 관리<br/>• hoc를 이용한 authentication 구현<br/>• hook을 이용한 함수형 컴포넌트 생성<br/>• context Api를 활용한 전역상태 관리</ReactTooltip>
         </div>
         <div
           className="Skill_image_container"
