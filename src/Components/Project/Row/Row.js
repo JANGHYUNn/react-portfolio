@@ -9,6 +9,7 @@ import vueNews from './image/vue-news.png';
 import vueTil from './image/vue-til.png';
 import reactShop from './image/react-shop.png';
 import withing from './image/withing-guide.png';
+import crequession from './image/crequession.png';
 
 import './Row.css';
 
@@ -17,12 +18,41 @@ const Row = () => (
       <div className="Row">
             <div className="Box">
                   <div className="Box_image">
+                        <a href=""><img src={crequession} alt="Virtual" className="image"></img></a>
+                  </div>
+                  <div className="Box_info">
+                        <h1 className="Box_title">크리퀘션(책 공유 플랫폼) 앱 관리자 페이지</h1>
+
+                        <h2 className="name">개발기간 : 2020.10.26 ~ 2020.11.06</h2>
+                        <p className="Box_content" style={{fontSize:'1rem'}}>
+                              - Context Api를 이용한 전역 상태 관리<br />
+                              - react hooks을 이용한 함수형 컴포넌트로 제작<br />
+                              - post man을 사용한 rest api 체크<br />
+                              - hok을 이용한 Authentication 기능 구현(로그인 상태 체크)<br />
+                              - private git hub<br />
+                              - 참여율 100%
+                        </p>
+                        <ul className="Box_ul">
+                              <li className="Box_li">#react</li>
+                              <li className="Box_li">#contextApi</li>
+                              <li className="Box_li">#antd</li>
+                              <li className="Box_li">#Rest Api</li>
+                        </ul>
+                        <ul className="Box_ul">
+                              <li className="Box_li">
+                                    <a href="https://github.com/thebuildsoft/crepuession-admin" alt="github"> <img src={github} alt="github" className="icon_image" /></a>
+                              </li>
+                        </ul>
+                  </div>
+            </div>
+            <div className="Box">
+                  <div className="Box_image">
                         <a href="http://guide.withingkorea.com/"><img src={withing} alt="Virtual" className="image"></img></a>
                   </div>
                   <div className="Box_info">
                         <h1 className="Box_title">withing(외국인 대상 여행가이드)</h1>
 
-                        <h2 className="name">개발기간 : 2020.10.15 ~ 2020.10.30</h2>
+                        <h2 className="name">개발기간 : 2020.10.08 ~ 2020.10.23</h2>
                         <p className="Box_content" style={{fontSize:'1rem'}}>
                               - Context Api를 이용한 전역 상태 관리<br />
                               - react hooks을 이용한 함수형 컴포넌트로 제작<br />
@@ -34,7 +64,6 @@ const Row = () => (
                         <ul className="Box_ul">
                               <li className="Box_li">#react</li>
                               <li className="Box_li">#contextApi</li>
-                              <li className="Box_li">#nodejs</li>
                               <li className="Box_li">#Rest Api</li>
                         </ul>
                         <ul className="Box_ul">
