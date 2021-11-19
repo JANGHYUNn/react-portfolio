@@ -10,12 +10,43 @@ import vueTil from './image/vue-til.png';
 import reactShop from './image/react-shop.png';
 import withing from './image/withing-guide.png';
 import crequession from './image/crequession.png';
+import android from './image/android.png';
+import carbay from './image/carbay.png';
 
 import './Row.css';
 
 
 const Row = () => (
       <div className="Row">
+            <div className="Box">
+                  <div className="Box_image">
+                        <a href="https://play.google.com/store/apps/details?id=com.android_carbay"><img style={{objectFit:'contain'}} src={carbay} alt="Virtual" className="image"></img></a>
+                  </div>
+                  <div className="Box_info">
+                        <h1 className="Box_title">Carbay for Buyer(중고 수출 플랫폼 앱)</h1>
+
+                        <h2 className="name">개발기간 : 2021.2.26 ~ 2021.6.17</h2>
+                        <p className="Box_content" style={{fontSize:'1rem'}}>
+                              - Context Api를 이용한 전역 상태 관리<br />
+                              - FlatList 무한 스크롤 최적화<br />
+                              - react hooks을 이용한 함수형 컴포넌트로 제작<br />
+                              - post man을 사용한 rest api 체크<br />
+                              - navigation을 이용한 stack 관리<br />
+                              - 참여율 100%
+                        </p>
+                        <ul className="Box_ul">
+                              <li className="Box_li">#React Native</li>
+                              <li className="Box_li">#React Native Navigation</li>
+                              <li className="Box_li">#contextApi</li>
+                              <li className="Box_li">#Rest Api</li>
+                        </ul>
+                        <ul className="Box_ul">
+                              <li className="Box_li">
+                                    <a href="https://play.google.com/store/apps/details?id=com.android_carbay" alt="github"> <img src={android} alt="android" className="icon_image" /></a>
+                              </li>
+                        </ul>
+                  </div>
+            </div>
             <div className="Box">
                   <div className="Box_image">
                         <a href=""><img src={crequession} alt="Virtual" className="image"></img></a>

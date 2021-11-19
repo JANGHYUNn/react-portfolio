@@ -16,6 +16,7 @@ import html from './logo/html-5.png';
 import svn from './logo/subversion-logo.png';
 import webpack from './logo/webpack.jpg';
 import node from './logo/unnamed.png';
+import rn from './logo/rn.png';
 
 const Skils = () => (
   <div className="Skill" id="s">
@@ -108,16 +109,16 @@ const Skils = () => (
       </span>
       <h2 className="Skill_Title">FrameWork</h2>
       <span className="Skill_Content">
-        <div
+      <div
           className="Skill_image_container"
-          style={{ backgroundImage: `url(${vue})` ,textAlign: "left" }}
+          style={{ backgroundImage: `url(${rn})` ,textAlign: "left", backgroundSize:'contain', backgroundPosition:'center' }}
           data-tip
-            data-for='vue'
+            data-for='rn'
             data-place="right"
             data-type="info"
         >
           {/* <div className="Skill_label">초급</div> */}
-          <ReactTooltip id="vue">• MVVM 패턴의 이해<br/>• vuex를 통한 데이터 상태관리<br/>• vue-router를 사용한 컴포넌트 통신(dynamic import, navigation gard)<br/>• Mixin을 이용한 코드 재사용<br/>• slot을 이용한 분기처리</ReactTooltip>
+          <ReactTooltip id="rn">• i18n (다국어 번역)<br/>• navigation 을 이용한 stack 관리<br/>• FlatList 스크롤 최적화<br/>• hook을 이용한 함수형 컴포넌트 생성<br/>• context Api를 활용한 전역상태 관리</ReactTooltip>
         </div>
         <div
           className="Skill_image_container"
@@ -129,6 +130,17 @@ const Skils = () => (
         >
           {/* <div className="Skill_label">초급</div> */}
           <ReactTooltip id="react">• spa에 대한 개념이해<br/>• state, props 기본 사용법<br/>• 이벤트 핸들링을 이용한 기능 개발<br/>• redux를 이용한 state상태 관리<br/>• hoc를 이용한 authentication 구현<br/>• hook을 이용한 함수형 컴포넌트 생성<br/>• context Api를 활용한 전역상태 관리</ReactTooltip>
+        </div>
+        <div
+          className="Skill_image_container"
+          style={{ backgroundImage: `url(${vue})` ,textAlign: "left" }}
+          data-tip
+            data-for='vue'
+            data-place="right"
+            data-type="info"
+        >
+          {/* <div className="Skill_label">초급</div> */}
+          <ReactTooltip id="vue">• MVVM 패턴의 이해<br/>• vuex를 통한 데이터 상태관리<br/>• vue-router를 사용한 컴포넌트 통신(dynamic import, navigation gard)<br/>• Mixin을 이용한 코드 재사용<br/>• slot을 이용한 분기처리</ReactTooltip>
         </div>
         <div
           className="Skill_image_container"
