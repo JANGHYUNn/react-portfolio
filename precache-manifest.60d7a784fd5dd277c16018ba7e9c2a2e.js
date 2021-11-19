@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e27474aafbbab34a3d950d5619d61fc7",
+    "revision": "c7979f619b01cf0e975900eedbe9521f",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "160eaaf70d6fb0c0c758",
-    "url": "/react-portfolio/static/css/main.b0c68f5a.chunk.css"
+    "revision": "fa6938b191ee7b49996b",
+    "url": "/react-portfolio/static/css/main.481f8afc.chunk.css"
   },
   {
-    "revision": "eaf34725164e218f0f74",
-    "url": "/react-portfolio/static/js/2.f43232fa.chunk.js"
+    "revision": "83229923b3bcf2e14554",
+    "url": "/react-portfolio/static/js/2.ca357d90.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/react-portfolio/static/js/2.f43232fa.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.ca357d90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "160eaaf70d6fb0c0c758",
-    "url": "/react-portfolio/static/js/main.37527def.chunk.js"
+    "revision": "fa6938b191ee7b49996b",
+    "url": "/react-portfolio/static/js/main.1ce9ac4a.chunk.js"
   },
   {
     "revision": "65015130231404481b6d",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "11e8af26618daecab1b13cab7387ce65",
     "url": "/react-portfolio/static/media/900px-JavaScript-logo.11e8af26.png"
+  },
+  {
+    "revision": "b009dd1e8f1e52820bfac70a75fc1cdd",
+    "url": "/react-portfolio/static/media/android.b009dd1e.png"
+  },
+  {
+    "revision": "2678f28a0133336c6461793f1a5ed8ca",
+    "url": "/react-portfolio/static/media/carbay.2678f28a.png"
   },
   {
     "revision": "076a5443dc498e20dfd04e958942e3d4",
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e79fb473204dbd44284bdfb362464254",
     "url": "/react-portfolio/static/media/react.e79fb473.svg"
+  },
+  {
+    "revision": "f42ce0d103ebda95e9dac7d5c5e9cb76",
+    "url": "/react-portfolio/static/media/rn.f42ce0d1.png"
   },
   {
     "revision": "b213ea0bb0a64fffd632c82aa3f6cc25",
